@@ -1,0 +1,27 @@
+// Day 7 - Exercise 2
+
+class Animal {
+    constructor(name) {}
+    move(meters) {
+      console.log(`${this.name} moved ${meters}m.`)
+    }
+  }
+
+  class Snake {
+    move(meters) {
+      console.log('Slithering...')
+    }
+  }
+
+  class Pony {
+    move(meters) {
+      console.log('Galloping...')
+    }
+  }
+
+
+  const sammy = new Snake("Sammy the Snake")
+  sammy.move()
+
+  const pokey = new Pony("Pokey the Pony")
+  pokey.move(34)
